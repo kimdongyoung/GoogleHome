@@ -1,3 +1,44 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.content {
+	position: relative;
+	width: 1007px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 250px;
+}
+
+.content-box {
+	width: 600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo {
+	background-image: url('logo11w.png');
+	background-repeat: no-repeat;
+	color: transparent;
+	padding: 90px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+li {
+	text-align: center;
+}
+
+input[type = "text"] {
+	width: 400px;
+}
+
+#button input {
+	background-color: #f5f5f5;
+	border: 1px solid #c6c6c6;
+	font-family: arial, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #666;
+	border-radius: 2px;
+}

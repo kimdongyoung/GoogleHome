@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GoogleHome</title>
+  <title>Google</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<div class = "header">
+	<ul class = "head">
+		<div id = "header-right-links">
+			<li><a class="header-link" href="https://plus.google.com/?gpsrc=ogpy0&amp;tab=wX">+You</a></li>
+			<li><a class="header-link" href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+			<li><a class="header-link" href="https://www.google.com/imghp?hl=en&amp;tab=wi&amp;ei=smrwUvr6LqirsQSa_4DoCQ&amp;ved=0CAQQqi4oAg">Images</a></li>
+			<li id="box-matrix"><a href="">Box Matrix</a></li>
+			<li id="sign-in-logo"><a href="https://accounts.google.com/ServiceLogin?hl=en&amp;continue=https://www.google.com/">Sign In</a></li>
+		</div>
+	</ul>
+</div>
+
 <%= yield %>
 
+<div class = "footer">
+	<ul class = "foot">
+		<div id="left-links">
+			<li><a class="footer-link" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+			<li><a class="footer-link" href="https://www.google.com/services/?fg=1">Business</a></li>
+			<li><a class="footer-link" href="https://www.google.com/intl/en/about/">About</a></li>
+		</div>
+		<div id="right-links">
+			<li><a class="footer-link" href="https://www.google.com/intl/en/policies/?fg=1">Privacy &amp Terms</a></li>
+			<li><a class="footer-link" href="https://www.google.com/preferences?hl=en">Settings</a></li>
+		</div>
+	</ul>
+</div>
 </body>
 </html>
