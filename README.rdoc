@@ -1,28 +1,21 @@
-== README
+Name: Dong Young Kim
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Link to Heroku page: http://salty-temple-2434.herokuapp.com/
 
-Things you may want to cover:
+I recreated Google homepage using HTML and CSS.
+- created footer and header via application.html/scss
+- put Google logo, search box, and button via index.html and home.css
 
-* Ruby version
+One problem came up when I tried to push my code to Heroku. I kept getting precompiling errors. After several minutes of struggle, I realized that after executing 'git push heroku master', I got helpful messages that detailed why I was getting these errors. I figured out that I had a few syntax errors in my CSS code. After fixing them, it worked.
 
-* System dependencies
+Then when I opened up Heroku, I realized I couldn't see any images. After a long struggle, I saw on Canvas about setting some attributes to true. This solved my problem immediately.
 
-* Configuration
+In regards to my actual code, I struggled with getting things the right size relative to each other. I have trouble understanding differences between padding and margin. My Google logo is way too big and I tried setting the height and width % but I could not resolve this issue. Also, when I was working on localhost, some of my fonts was bigger than what I stated on code. So I made them smaller to compensate. However, after deploying to Heroku, it seemed like the fonts got even smaller. 
 
-* Database creation
+Project Ideas:
 
-* Database initialization
+1. A simple website that allows organizations with a lot of events for a lot of people, factoring in different priority on different events and people's conflicts. The website will present what the optimal way to schedule the events are, given the factors. This is different from When2meet because it presents what the optimal scheduling is for multiple events.
 
-* How to run the test suite
+2. A website that allows people to easily create pickup games for all sports. For example, one person would post a pickup soccer game event on the website. Anyone nearby interested in playing pickup soccer is connected through the website and is alerted (via email or text) that a new pickup soccer game has been created. Other users can log on and show interest in the newly created event through things like a 'like' button.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+3.  ... can't think of one.
